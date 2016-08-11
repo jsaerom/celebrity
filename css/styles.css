@@ -1,0 +1,19 @@
+body{
+  margin-top: 25px;
+}
+.results{
+  display: none;
+  text-align: center;
+}
+
+h1, h3{
+  font-family: 'Abril Fatface', cursive;
+}
+
+h1{
+  text-align: center;
+  font-size: 5em;
+}
+p{
+  margin-top: 10px;
+}

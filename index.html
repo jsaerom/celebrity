@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Dating Site</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Who is your celeb date?</h1>
+      <div id="form">
+        <h2>Take the survey</h2>
+        <form>
+          <div class="form-group">
+            <label>What is your name?</label>
+            <br>
+            <input type="text" name="name" placeholder="Name" id="userName" for="userName">
+          </div>
+
+          <div class="sexradio" id="sexPref" for="sexPref">
+            <label>Your sexual preference:</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="sexual_preference" value="Male" checked>Male
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="sexual_preference" value="Female">Female
+              </label>
+            </div>
+          </div>
+
+          <div class="age" id="agePref" for="agePref">
+            <label>How old do you like them:</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="ideal_age" value="18-30" checked>18-30
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="ideal_age" value="31-45">31-45
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="ideal_age" value="46+">46+
+              </label>
+            </div>
+          </div>
+          <button class="btn btn-default" type="submit" name="button">get your date!</button>
+        </form>
+      </div>
+      <div>
+        <div id="female18-30" class="results">
+          <h3>Hey <span class="yourname"></span>, you got Selena Gomez!</h3>
+          <img src="img/18-30female.jpg">
+          <p>Bacon ipsum dolor amet pork loin tri-tip hamburger filet mignon t-bone. Ham shoulder biltong bresaola leberkas flank chicken strip steak sirloin beef ribs pork belly jowl meatloaf drumstick turducken. Short ribs tongue ham hock chuck drumstick jerky. Venison beef ribs leberkas, pig chuck shankle cow swine andouille porchetta cupim ball tip hamburger short ribs prosciutto. Andouille capicola rump, venison landjaeger cupim ham hamburger short ribs chicken. Strip steak tongue brisket shoulder venison ham hock biltong cow frankfurter beef drumstick. T-bone turducken kielbasa jerky tenderloin corned beef flank meatloaf brisket strip steak drumstick alcatra.</p>
+        </div>
+        <div id="female31-45" class="results">
+          <h3>Hey <span class="yourname"></span>, you got Reese Witherspoon!</h3>
+          <img src="img/31-45female.jpg">
+          <p>Bacon ipsum dolor amet pork loin tri-tip hamburger filet mignon t-bone. Ham shoulder biltong bresaola leberkas flank chicken strip steak sirloin beef ribs pork belly jowl meatloaf drumstick turducken. Short ribs tongue ham hock chuck drumstick jerky. Venison beef ribs leberkas, pig chuck shankle cow swine andouille porchetta cupim ball tip hamburger short ribs prosciutto. Andouille capicola rump, venison landjaeger cupim ham hamburger short ribs chicken. Strip steak tongue brisket shoulder venison ham hock biltong cow frankfurter beef drumstick. T-bone turducken kielbasa jerky tenderloin corned beef flank meatloaf brisket strip steak drumstick alcatra.</p>
+        </div>
+        <div id="female46" class="results">
+          <h3>Hey <span class="yourname"></span>, you got Kathy Griffin!</h3>
+          <img src="img/46female.jpg">
+          <p>Bacon ipsum dolor amet pork loin tri-tip hamburger filet mignon t-bone. Ham shoulder biltong bresaola leberkas flank chicken strip steak sirloin beef ribs pork belly jowl meatloaf drumstick turducken. Short ribs tongue ham hock chuck drumstick jerky. Venison beef ribs leberkas, pig chuck shankle cow swine andouille porchetta cupim ball tip hamburger short ribs prosciutto. Andouille capicola rump, venison landjaeger cupim ham hamburger short ribs chicken. Strip steak tongue brisket shoulder venison ham hock biltong cow frankfurter beef drumstick. T-bone turducken kielbasa jerky tenderloin corned beef flank meatloaf brisket strip steak drumstick alcatra.</p>
+        </div>
+        <div id="male18-30" class="results">
+          <h3>Hey <span class="yourname"></span>, you got Zac Efron!</h3>
+          <img src="img/18-30male.jpg">
+          <p>Bacon ipsum dolor amet pork loin tri-tip hamburger filet mignon t-bone. Ham shoulder biltong bresaola leberkas flank chicken strip steak sirloin beef ribs pork belly jowl meatloaf drumstick turducken. Short ribs tongue ham hock chuck drumstick jerky. Venison beef ribs leberkas, pig chuck shankle cow swine andouille porchetta cupim ball tip hamburger short ribs prosciutto. Andouille capicola rump, venison landjaeger cupim ham hamburger short ribs chicken. Strip steak tongue brisket shoulder venison ham hock biltong cow frankfurter beef drumstick. T-bone turducken kielbasa jerky tenderloin corned beef flank meatloaf brisket strip steak drumstick alcatra.</p>
+        </div>
+        <div id="male31-45" class="results">
+          <h3>Hey <span class="yourname"></span>, you got Orlando Bloom!</h3>
+          <img src="img/31-45male.png">
+          <p>Bacon ipsum dolor amet pork loin tri-tip hamburger filet mignon t-bone. Ham shoulder biltong bresaola leberkas flank chicken strip steak sirloin beef ribs pork belly jowl meatloaf drumstick turducken. Short ribs tongue ham hock chuck drumstick jerky. Venison beef ribs leberkas, pig chuck shankle cow swine andouille porchetta cupim ball tip hamburger short ribs prosciutto. Andouille capicola rump, venison landjaeger cupim ham hamburger short ribs chicken. Strip steak tongue brisket shoulder venison ham hock biltong cow frankfurter beef drumstick. T-bone turducken kielbasa jerky tenderloin corned beef flank meatloaf brisket strip steak drumstick alcatra.</p>
+        </div>
+        <div id="male46" class="results">
+          <h3>Hey <span class="yourname"></span>, you got Hugh Jackman!</h3>
+          <img src="img/46male.jpg">
+          <p>Bacon ipsum dolor amet pork loin tri-tip hamburger filet mignon t-bone. Ham shoulder biltong bresaola leberkas flank chicken strip steak sirloin beef ribs pork belly jowl meatloaf drumstick turducken. Short ribs tongue ham hock chuck drumstick jerky. Venison beef ribs leberkas, pig chuck shankle cow swine andouille porchetta cupim ball tip hamburger short ribs prosciutto. Andouille capicola rump, venison landjaeger cupim ham hamburger short ribs chicken. Strip steak tongue brisket shoulder venison ham hock biltong cow frankfurter beef drumstick. T-bone turducken kielbasa jerky tenderloin corned beef flank meatloaf brisket strip steak drumstick alcatra.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
